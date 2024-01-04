@@ -5,7 +5,7 @@ from PIL import Image
 from util import classify, set_background
 
 
-set_background('./bgs/bg5.png')
+set_background('bg5.png')
 
 st.title('Pneumonia classification')
 
